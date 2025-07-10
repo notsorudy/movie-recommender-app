@@ -4,7 +4,7 @@ import gdown
 MODEL_PATH = "similarity.pkl"
 
 if not os.path.exists(MODEL_PATH):
-    url = "https://drive.google.com/uc?id=FILE_ID"  # replace FILE_ID
+    url = "https://drive.google.com/file/d/1_kGQusNvwK9oPUn2-x4lzOTOi6Ez8W7y/view?usp=sharing"  # replace FILE_ID
     print("Downloading model file...")
     gdown.download(url, MODEL_PATH, quiet=False)
 
